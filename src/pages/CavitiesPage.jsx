@@ -5,7 +5,7 @@ export const CavitiesPage = () => {
     return (
         <>
             <Header />
-            <main className="container mt-20">
+            <main className="container mt-24">
                 <h1>Todo sobre las caries</h1>
             </main>
             
