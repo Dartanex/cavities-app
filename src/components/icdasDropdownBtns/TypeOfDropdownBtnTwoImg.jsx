@@ -1,16 +1,16 @@
-import { useDropdownContext } from "../context/dropdownContext"
+import { useDropdownContext } from "../../context/dropdownContext"
 export const TypeOfDropdownBtnTwoImg = (props) => {
  
     const {isDropdownOpen, toggleDropdown} = useDropdownContext()
 
     return (
     <>
-        <div className="mt-5 ms-2">
-        <button className="inline-flex w-full rounded-md font-base px-2 py-2 text-left text-white text-md" 
+        <div className="mt-5 mx-auto px-2 w-full">
+        <button className="inline-flex w-fit gap-2 rounded-md font-base px-2 py-2 text-left text-white text-md" 
         onClick={() => { toggleDropdown(props.name) }}
         aria-expanded={isDropdownOpen[props.name] ? 'true':'false'}
         aria-haspopup="true">
-            <span className=" ms-1 w-3/4 md:w-fit">
+            <span className=" ms-1 w-10/12 md:w-fit">
                 {props.title}
             </span>                        
                 <svg className="h-6 w-6 md:w-6 md:h-6 text-white" 
@@ -25,11 +25,15 @@ export const TypeOfDropdownBtnTwoImg = (props) => {
         </button>
 
         {isDropdownOpen[props.name] && (
-            <div>
-                <img className="w-72 mx-auto rounded-md md:w-4/12 md: ms-5" 
+            <div className="md:flex md:p-2">
+                <img className="w-52 mx-auto rounded-md md:w-4/12 mt-2 md:ms-5" 
                 src={props.imgOne} alt={props.altOne} />
-                <img className="w-72 mx-auto rounded-md md:w-4/12 md: ms-5" 
+                <img className="w-52 mx-auto rounded-md md:w-4/12 mt-4 md:ms-5" 
                 src={props.imgTwo} alt={props.altTwo} />
+                <img className="w-52 mx-auto rounded-md md:w-4/12 mt-4 md:ms-5" 
+                src={props.imgThree} alt={props.altThree} />
+                <img className="w-52 mx-auto rounded-md md:w-4/12 mt-4 md:ms-5" 
+                src={props.imgFour} alt={props.altFour} />
             </div>
         )}
         </div>
