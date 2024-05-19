@@ -1,6 +1,12 @@
+import { Header } from "../components/Header"
 
 export const BlackCavities = () => {
   return (
-    <div>BlackCavities</div>
+    <>
+        <Header />
+        <main className="container mt-24">
+            <h1>Caries Según BLACK</h1>
+        </main>
+    </>
   )
 }

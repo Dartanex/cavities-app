@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import useDropdownButton from "../hooks/useDropdownButton"
-import { NavbarButton } from "./NavbarButton"
+import { DropdownOptionButton } from "./DropdownOptionButton"
 
 
 export const DropdownButton = () => {
@@ -32,20 +32,11 @@ export const DropdownButton = () => {
                         role="menu" aria-orientation="vertical" aria-labelledby="menu-button">
                             <div className="md:w-6 md:h-6 md:ms-1 md:rounded-sm md:absolute  mt-20 rotate-45 bg-black/90 backdrop-blur-sm">
                             </div>
-                            <div className="py-2 flex flex-col gap-4 md:absolute md:z-20 md:rounded-md top-20 md:top-28 md:bg-black" 
+                            <div className="py-2 flex flex-col gap-4 md:absolute md:z-20 md:rounded-md md:w-64 top-20 md:top-28 md:bg-black" 
                             role="none">
-                                <Link to="/typecavities#igdas" 
-                                className=" px-4 py-2 text-xl hover:bg-gray-800 font-bold text-white" role="menuitem">
-                                    ICDAS
-                                </Link>
-                                <Link to="/typecavities#black" 
-                                className="px-4 py-2 text-xl hover:bg-gray-800 font-bold text-white" role="menuitem">
-                                    BLACK
-                                </Link>
-                                <Link to="/typecavities#monhHume" 
-                                className="px-4 py-2 text-xl hover:bg-gray-800 font-bold text-white" role="menuitem">
-                                    MOUNT-HUME
-                                </Link>    
+                                <DropdownOptionButton title="ICDAS" to={'/icdascavities'} />
+                                <DropdownOptionButton title="BLACK" to={'/blackcavities'} />
+                                <DropdownOptionButton title="MOUNT-HUME" to={'/mounthumecavities'} />    
                             </div>
                         </div>
                     )}

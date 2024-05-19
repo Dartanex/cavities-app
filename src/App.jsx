@@ -5,6 +5,8 @@ import { CavitiesPage } from './pages/CavitiesPage'
 import { QuizPage } from './pages/QuizPage'
 
 import { IcdasCavities } from './pages/IcdasCavities'
+import { BlackCavities } from './pages/BlackCavities'
+import { MountHumeCavities } from './pages/MountHumeCavities'
 
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
         <Route exact path="/home" element={<HomePage />} />
         <Route exact path="/cavities" element={<CavitiesPage />} />
         <Route exact path='/icdascavities' element={<IcdasCavities />} />
+        <Route exact path='/blackcavities' element={<BlackCavities />} />
+        <Route exact path='/mounthumecavities' element={<MountHumeCavities />} />
         <Route exact path="/quiz" element={<QuizPage />} />
       </Routes>
     </>
