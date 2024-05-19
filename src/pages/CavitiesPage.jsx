@@ -1,5 +1,14 @@
+import { CavitiesDropdownBtn } from "../components/CavitiesDropdownBtn"
 import { Header } from "../components/Header"
 import { useDropdownContext } from "../context/dropdownContext"
+import tipo0 from '../assets/tiposCaries/0.png'
+import tipo1 from '../assets/tiposCaries/1.png'
+import tipo3 from '../assets/tiposCaries/3.png'
+import tipo4 from '../assets/tiposCaries/4.png'
+import tipo5 from '../assets/tiposCaries/5.png'
+import tipo6 from '../assets/tiposCaries/6.png'
+import tipo7 from '../assets/tiposCaries/7.png'
+import tipo8 from '../assets/tiposCaries/8.png'
 
 export const CavitiesPage = () => {
 
@@ -75,13 +84,27 @@ export const CavitiesPage = () => {
 
                     {isDropdownOpen['dropThird'] && (
                         <div>
-                            <p className="text-white p-2">
-                                La etiología es multifactorial se ha establecido que el Streptococcus mutans, inmerso en un biofilm 
-                                bacteriano, es su principal agente causal, efecto potenciado por características en la dieta de los 
-                                pacientes infantiles. Los hidratos de carbono fermentables presentes en la dieta son metabolizados 
-                                por las bacterias produciendo una alteración en la homeostasis bacteriana al disminuir el pH mediante 
-                                la producción de ácidos y la consecuente desmineralización de los tejidos dentales.
-                            </p>
+                            <h3 className="text-white font-base ps-2">Condición de la superficie:</h3>
+                            <div>
+                                <CavitiesDropdownBtn number='0' name='noRestauradoSellado' title='No restaurado, Ni sellado' 
+                                img={tipo0} alt='No restaurado, ni sellado' />
+                                <CavitiesDropdownBtn number='1' name='sellanteParcial' title='Sellante, Parcial' 
+                                img={tipo1} alt='Sellante, Parcial' />
+                                <CavitiesDropdownBtn number='3' name='restauracionColorDiente' title='Restauracion color diente' 
+                                img={tipo3} alt='Restauracion color diente' />
+                                <CavitiesDropdownBtn number='4' name='RestauracionAmalgama' title='Restauracion en amalgama' 
+                                img={tipo4} alt='Restauracion en amalgama' />
+                                <CavitiesDropdownBtn number='5' name='coronaAceroInox' title='Corona acero inoxidable' 
+                                img={tipo5} alt='Corona acero inoxidable' />
+                                <CavitiesDropdownBtn number='6' name='coronaCarillaPorcelana' 
+                                title='Corona o Carilla en procelana, oro o metal-porcelana' 
+                                img={tipo6} alt='Corona o Carilla en procelana, oro o metal-porcelana' />
+                                <CavitiesDropdownBtn number='7' name='restauracionPerdidaFracturada' 
+                                title='Restauracion perdida o fracturada' 
+                                img={tipo7} alt='Restauracion perdida o fracturada' />
+                                <CavitiesDropdownBtn number='8' name='restauracionTemporal' title='Restauracion temporal' 
+                                img={tipo8} alt='Restauracion temporal' />
+                            </div>
                         </div>
                     )}
                 </section>
