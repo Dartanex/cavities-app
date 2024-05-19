@@ -1,8 +1,7 @@
 import { useDropdownContext } from "../context/dropdownContext"
-
-// eslint-disable-next-line no-unused-vars
-export const CavitiesDropdownBtn = (props) => {
-  
+// Se importa el componente TypeCavitieDropdownBtn Para obtener los tipos de caries según el código
+export const CodeDropdownBtn = (props) => {
+ 
     const {isDropdownOpen, toggleDropdown} = useDropdownContext()
 
     return (
@@ -12,7 +11,9 @@ export const CavitiesDropdownBtn = (props) => {
         onClick={() => { toggleDropdown(props.name) }}
         aria-expanded={isDropdownOpen[props.name] ? 'true':'false'}
         aria-haspopup="true">
-            <span className=" me-2 px-4 py-1 font-bold border-4 border-pink-500 rounded-md shadow-inner shadow-indigo-500/50">{props.number}</span>
+            <span className=" me-2 px-4 py-1 font-bold border-4 border-pink-500 rounded-md shadow-inner shadow-indigo-500/50">
+            {props.number}
+            </span>
             <span className=" ms-1 flex w-3/4 md:w-fit">
                 {props.title}
             </span>                        
@@ -29,6 +30,7 @@ export const CavitiesDropdownBtn = (props) => {
 
         {isDropdownOpen[props.name] && (
             <div>
+                
                 <img className="w-72 mx-auto rounded-md md:w-4/12 md: ms-5" 
                 src={props.img} alt={props.alt} />
             </div>

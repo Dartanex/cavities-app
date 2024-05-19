@@ -3,12 +3,14 @@
 @tailwind utilities;
 
 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     scroll-behavior: smooth;
 }
 
-body {
+#root {
     background: #3494E6;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #0879dd, #EC6EAD);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #0879dd, #db4892); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }

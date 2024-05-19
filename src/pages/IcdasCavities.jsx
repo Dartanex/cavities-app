@@ -1,3 +1,4 @@
+
 import { Header } from "../components/Header"
 
 export const IcdasCavities = () => {
@@ -5,8 +6,12 @@ export const IcdasCavities = () => {
     <>
         <Header />
 
-        <main className="container mt-24">
-            <h1> Caries Según ICDAS</h1>
+        <main className="container mt-16 mx-auto bg-black/50 backdrop-blur-sm w-11/12 md:w-3/4 rounded-md p-2">
+            <h1 className="text-white text-xl md:text-2xl text-center font-bold"> Códigos de caries según ICDAS</h1>
+            <div>
+              
+            </div>
+
         </main>
     </>
   )

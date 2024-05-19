@@ -9,6 +9,7 @@ import tipo5 from '../assets/tiposCaries/5.png'
 import tipo6 from '../assets/tiposCaries/6.png'
 import tipo7 from '../assets/tiposCaries/7.png'
 import tipo8 from '../assets/tiposCaries/8.png'
+import { Footer } from "../components/Footer"
 
 export const CavitiesPage = () => {
 
@@ -17,10 +18,10 @@ export const CavitiesPage = () => {
     return (
         <>
             <Header />
-            <main className="container bg-black/50 backdrop-blur-sm w-11/12 md:w-3/4 md:p-16 mt-24 mx-auto rounded-md p-2">
+            <main className="container bg-black/50 backdrop-blur-sm w-11/12 md:w-3/4 md:p-16 mt-10 md:mt-20 md:mb-20 mx-auto rounded-md p-2">
                 <h1 className="font-bold text-white text-center md:text-2xl md:mb-16">Información de caries</h1>
-                <section className="container mt-5">
-                    <button className="inline-flex w-full rounded-md font-semibold px-2 py-2 text-left" 
+                <section className="container mt-5 md:mx-auto">
+                    <button className="inline-flex  rounded-md font-semibold px-2 py-2 text-left" 
                     onClick={() => { toggleDropdown('dropOne') }}
                     aria-expanded={isDropdownOpen['dropOne'] ? 'true':'false'}
                     aria-haspopup="true">
@@ -31,7 +32,7 @@ export const CavitiesPage = () => {
                     </button>
                     
                     {isDropdownOpen['dropOne'] && (
-                        <ul className="list-outside list-disc ms-4 p-2 md: ps-6">
+                        <ul className="list-outside list-disc ms-4 p-2 md:ps-6 md:w-3/4">
                         <li className="font-base text-white text-pretty mt-2">
                             <p>
                                 Caries dental. Está causada por las bacterias de la placa, que aparece por falta de higiene, 
@@ -49,7 +50,7 @@ export const CavitiesPage = () => {
                     )}
                 </section>
                 <section className="container mt-5">
-                <button className="inline-flex w-full rounded-md font-semibold px-2 py-2 text-left" 
+                <button className="inline-flex rounded-md font-semibold px-2 py-2 text-left" 
                 onClick={() => { toggleDropdown('dropTwo') }}
                 aria-expanded={isDropdownOpen['dropTwo'] ? 'true':'false'}
                 aria-haspopup="true">
@@ -60,7 +61,7 @@ export const CavitiesPage = () => {
                     </button>
 
                     {isDropdownOpen['dropTwo'] && (
-                        <div>
+                        <div className="md:w-3/4">
                             <p className="text-white p-2">
                                 La etiología es multifactorial se ha establecido que el Streptococcus mutans, inmerso en un biofilm 
                                 bacteriano, es su principal agente causal, efecto potenciado por características en la dieta de los 
@@ -71,8 +72,8 @@ export const CavitiesPage = () => {
                         </div>
                     )}
                 </section>
-                <section className="container mt-5">
-                    <button className="inline-flex w-full rounded-md font-semibold px-2 py-2 text-left" 
+                <section className="container mt-5 md:mb-8">
+                    <button className="inline-flex w-max-screen-lg rounded-md font-semibold px-2 py-2 text-left" 
                     onClick={() => { toggleDropdown('dropThird') }}
                     aria-expanded={isDropdownOpen['dropThird'] ? 'true':'false'}
                     aria-haspopup="true">
@@ -109,7 +110,9 @@ export const CavitiesPage = () => {
                     )}
                 </section>
             </main>
-            
+            <div className="mb-[-3.5vh] md:mb-[-3vh]">
+            <Footer />
+            </div>
         </>
     )
 }
