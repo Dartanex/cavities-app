@@ -1,12 +1,5 @@
 import { useDropdownContext } from "../context/dropdownContext"
-// Se importa el componente TypeCavitieDropdownBtn Para obtener los tipos de caries según el código
-// que contiene una imagen
-import { TypeOfDropdownBtn } from "./TypeOfDropdownBtn"
-// Se importa el componente TypeCavitieDropdownBtn Para obtener los tipos de caries según el código
-// que contiene dos imagenes
-import { TypeOfDropdownBtnTwoImg } from "./TypeOfDropdownBtnTwoImg"
-
-export const CodeDropdownBtn = (props) => {
+export const TypeOfDropdownBtn = (props) => {
  
     const {isDropdownOpen, toggleDropdown} = useDropdownContext()
 
@@ -17,10 +10,7 @@ export const CodeDropdownBtn = (props) => {
         onClick={() => { toggleDropdown(props.name) }}
         aria-expanded={isDropdownOpen[props.name] ? 'true':'false'}
         aria-haspopup="true">
-            <span className=" me-2 px-4 py-1 font-bold border-4 border-pink-500 rounded-md shadow-inner shadow-indigo-500/50">
-            {props.number}
-            </span>
-            <span className=" ms-1 flex w-3/4 md:w-fit">
+            <span className=" ms-1 w-3/4 md:w-fit">
                 {props.title}
             </span>                        
                 <svg className="h-6 w-6 md:w-6 md:h-6 text-white" 
@@ -36,9 +26,8 @@ export const CodeDropdownBtn = (props) => {
 
         {isDropdownOpen[props.name] && (
             <div>
-                <TypeOfDropdownBtnTwoImg name='fosaFisura' title='Fosa y fisura'  
-                imgOne='' altOne='' 
-                imgTwo='' altTwo=''/>
+                <img className="w-72 mx-auto rounded-md md:w-4/12 md: ms-5" 
+                src={props.img} alt={props.alt} />
             </div>
         )}
         </div>
