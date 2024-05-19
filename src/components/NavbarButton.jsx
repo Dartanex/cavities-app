@@ -5,7 +5,7 @@ export const NavbarButton = (props) => {
 
     const location = useLocation() // se eobtiene la URL para lograr el efecto active
     const isActive = location.pathname === props.to // Ruta de la actual URL
-    const btnActive = isActive ? ' bg-slate-900 text-white rounded-lg md:rounded-t-lg md:rounded-b-none md:rounded-t-lg md:p-2 md:mt-2' : 'md:p-2 md:mt-2'
+    const btnActive = isActive ? ' bg-gradient-to-r from-blue-500 to-pink-500 text-white rounded-lg md:rounded-t-lg md:rounded-b-none md:rounded-t-lg md:p-2 md:mt-2' : 'md:p-2 md:mt-2 text-white'
 
     return (
         <>

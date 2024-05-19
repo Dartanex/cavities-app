@@ -3,7 +3,8 @@ import { StartPage } from './pages/StartPage'
 import { HomePage } from './pages/HomePage'
 import { CavitiesPage } from './pages/CavitiesPage'
 import { QuizPage } from './pages/QuizPage'
-import { TypeCavitiesPage } from './pages/TypeCavitiesPage'
+
+import { IcdasCavities } from './pages/IcdasCavities'
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
         <Route exact path='/' element={<StartPage />} />
         <Route exact path="/home" element={<HomePage />} />
         <Route exact path="/cavities" element={<CavitiesPage />} />
-        <Route exact path='/typecavities' element={<TypeCavitiesPage />} />
+        <Route exact path='/icdascavities' element={<IcdasCavities />} />
         <Route exact path="/quiz" element={<QuizPage />} />
       </Routes>
     </>
