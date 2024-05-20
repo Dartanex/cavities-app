@@ -8,7 +8,7 @@ export const Header = () => {
 
     const [open, setOpen] = useState(false)
     return (
-        <header className="bg-white/40 shadow-md w-full md:max-w-screen-xl sticky z-10 top-0 left-0 backdrop-blur-md">
+        <header className="bg-white/40 shadow-md w-full md:max-w-screen-xl sticky z-20 top-0 left-0 backdrop-blur-md">
             <nav className="mx-auto md:flex md:flex-row md:items-center md:justify-between  gap-5 md:px-10 px-7">
                 <div className='cursor-pointer flex'>
                     <img className="size-20 mr-1 rounded-full" src={logodentart} alt="teeth" />
