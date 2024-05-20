@@ -21,7 +21,7 @@ export const CavitiesPage = () => {
             <main className="container bg-black/50 backdrop-blur-sm w-11/12 md:w-3/4 md:p-16 mt-10 md:mt-20 md:mb-20 mx-auto rounded-md p-2">
                 <h1 className="font-bold text-white text-center md:text-2xl md:mb-16">Información de caries</h1>
                 <section className="container mt-5 md:mx-auto">
-                    <button className="inline-flex  rounded-md font-semibold px-2 py-2 text-left" 
+                    <button className="inline-flex  rounded-md font-semibold px-2 py-2 text-left w-full gap-2" 
                     onClick={() => { toggleDropdown('dropOne') }}
                     aria-expanded={isDropdownOpen['dropOne'] ? 'true':'false'}
                     aria-haspopup="true">
@@ -50,7 +50,7 @@ export const CavitiesPage = () => {
                     )}
                 </section>
                 <section className="container mt-5">
-                <button className="inline-flex rounded-md font-semibold px-2 py-2 text-left" 
+                <button className="inline-flex rounded-md font-semibold px-2 py-2 text-left w-full gap-2" 
                 onClick={() => { toggleDropdown('dropTwo') }}
                 aria-expanded={isDropdownOpen['dropTwo'] ? 'true':'false'}
                 aria-haspopup="true">
@@ -73,7 +73,7 @@ export const CavitiesPage = () => {
                     )}
                 </section>
                 <section className="container mt-5 md:mb-8">
-                    <button className="inline-flex w-max-screen-lg rounded-md font-semibold px-2 py-2 text-left" 
+                    <button className="inline-flex w-max-screen-lg rounded-md font-semibold px-2 py-2 text-left w-full gap-2" 
                     onClick={() => { toggleDropdown('dropThird') }}
                     aria-expanded={isDropdownOpen['dropThird'] ? 'true':'false'}
                     aria-haspopup="true">
