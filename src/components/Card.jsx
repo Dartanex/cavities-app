@@ -15,7 +15,7 @@ export const Card = (props) => {
                     <div>
                         <p className='font-base text-white'>{props.description}</p>
                     </div>
-                    <div className='mt-4'>
+                    <div className='mt-4 md:mt-10'>
                         <Link to={props.to} className='rounded-md p-2 bg-violet-500 font-semibold text-slate-100'>{props.button}</Link>
                     </div>
                 </div>
