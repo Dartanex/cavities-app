@@ -11,7 +11,7 @@ export const Header = () => {
         <header className="bg-white/40 shadow-md w-full md:max-w-screen-xl sticky z-20 top-0 left-0 backdrop-blur-md">
             <nav className="mx-auto md:flex md:flex-row md:items-center md:justify-between  gap-5 md:px-10 px-7">
                 <div className='cursor-pointer flex'>
-                    <img className="size-20 mr-1 rounded-full" src={logodentart} alt="teeth" />
+                    <img className="size-20 mr-1 rounded-full" loading='lazy' src={logodentart} alt="teeth" />
                     <h3 className='md:mt-6 mt-5 ms-6 md:ms-4 text-3xl font-semibold'>DENTART</h3>
                 </div>
                 <div onClick={() => setOpen(!open)} className='absolute right-8 top-6'>

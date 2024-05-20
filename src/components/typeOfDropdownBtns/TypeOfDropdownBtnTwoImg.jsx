@@ -29,9 +29,9 @@ export const TypeOfDropdownBtnTwoImg = (props) => {
             <div className="md:grid md:grid-flow-row md:grid-cols-2 md:auto-rows-fr md:gap-2 md:p-2">
                 
                 <img className="w-52 mx-auto rounded-md md:border-none md:w-10/12 my-4 md:mx-auto" 
-                src={props.imgOne} alt={props.altOne} />
+                loading='lazy' src={props.imgOne} alt={props.altOne} />
                 <img className="w-52 mx-auto rounded-md md:border-none md:w-10/12 my-4 md:mx-auto" 
-                src={props.imgTwo} alt={props.altTwo} />
+                loading='lazy' src={props.imgTwo} alt={props.altTwo} />
             </div>
         )}
         </div>
