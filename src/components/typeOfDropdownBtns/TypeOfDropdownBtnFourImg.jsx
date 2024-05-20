@@ -28,13 +28,13 @@ export const TypeOfDropdownBtnFourImg = (props) => {
                     <div className="md:grid md:grid-flow-row md:grid-cols-2 md:auto-rows-fr md:grid-rows-2 md:gap-2 md:p-2">
                 
                         <img className="w-52 mx-auto rounded-md md:border-none md:w-10/12 my-4 md:mx-auto" 
-                        src={props.imgOne} alt={props.altOne} />
+                        loading='lazy' src={props.imgOne} alt={props.altOne} />
                         <img className="w-52 mx-auto rounded-md md:border-none md:w-10/12 my-4 md:mx-auto" 
-                        src={props.imgTwo} alt={props.altTwo} />
+                        loading='lazy' src={props.imgTwo} alt={props.altTwo} />
                         <img className="w-52 mx-auto rounded-md md:border-none md:w-10/12 my-4 md:mx-auto" 
-                        src={props.imgThree} alt={props.altThree} />
+                        loading='lazy' src={props.imgThree} alt={props.altThree} />
                         <img className="w-52 mx-auto rounded-md md:border-none md:w-10/12 my-4 md:mx-auto" 
-                        src={props.imgFour} alt={props.altFour} />
+                        loading='lazy' src={props.imgFour} alt={props.altFour} />
                     </div>
                 )}
             </div>    

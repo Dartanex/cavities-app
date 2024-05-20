@@ -6,7 +6,7 @@ export const Footer = () => {
     <>
         <footer className='bottom-0 mt-5 bg-white/30 md:max-w-screen-xl p-2'>
             <div className='w-1/2 ms-5 md:ms-16 flex'>
-                <img className='w-40 rounded-full' src={logodentart} alt="logo Dentart" />
+                <img loading='lazy' className='w-40 rounded-full' src={logodentart} alt="logo Dentart" />
                 <p className=' font-bold text-3xl mt-16'>DENTART</p>
             </div>
             <div className='mt-2'>
