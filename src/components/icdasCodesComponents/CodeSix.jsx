@@ -1,5 +1,5 @@
 import { useDropdownContext } from "../../context/dropdownContext"
-import { TypeOfDropdownBtnTwoImg } from "../icdasDropdownBtns/TypeOfDropdownBtnTwoImg"
+import { TypeOfDropdownBtnTwoImg } from "../typeOfDropdownBtns/TypeOfDropdownBtnTwoImg"
 import sixFosaFisuraOne from '../../assets/icdas/6/6-fosa-fisura-1.png'
 import sixFosaFisuraTwo from '../../assets/icdas/6/6-fosa-fisura-2.png'
 import sixCarsOne from '../../assets/icdas/6/6-cars-1.png'

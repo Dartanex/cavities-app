@@ -1,5 +1,6 @@
 import { useDropdownContext } from "../../context/dropdownContext"
-import { TypeOfDropdownBtnTwoImg } from "../icdasDropdownBtns/TypeOfDropdownBtnTwoImg"
+import { TypeOfDropdownBtnTwoImg } from "../typeOfDropdownBtns/TypeOfDropdownBtnTwoImg"
+import { TypeOfDropdownBtnFourImg } from "../typeOfDropdownBtns/TypeOfDropdownBtnFourImg"
 import fiveFosaFisuraOne from '../../assets/icdas/5/5-fosa-fisura-1.png'
 import fiveFosaFisuraTwo from '../../assets/icdas/5/5-fosa-fisura-2.png'
 import fiveSuperficieLisaOne from '../../assets/icdas/5/5-superficie-lisa-1.png'
@@ -39,7 +40,7 @@ export const CodeFive = () => {
                   <TypeOfDropdownBtnTwoImg name={'fiveFosaFisura'} title={'Fosa y fisura'}  
                   imgOne={fiveFosaFisuraOne} altOne={'Fosa y fisura'} 
                   imgTwo={fiveFosaFisuraTwo} altTwo={'Fosa y fisura'} />
-                  <TypeOfDropdownBtnTwoImg name={'fiveSuperficieLisa'} title={'Superficie lisa'} 
+                  <TypeOfDropdownBtnFourImg name={'fiveSuperficieLisa'} title={'Superficie lisa'} 
                   imgOne={fiveSuperficieLisaOne} altOne={'Superficie lisa'} imgTwo={fiveSuperficieLisaTwo} altTwo={'Superficie lisa'} 
                   imgThree={fiveSuperficieLisaThree} altThree={'Superficie lisa'} />
                   <TypeOfDropdownBtnTwoImg name={'fiveCars'} title={'CARS'}  

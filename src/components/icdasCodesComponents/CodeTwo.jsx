@@ -1,5 +1,6 @@
 import { useDropdownContext } from "../../context/dropdownContext"
-import { TypeOfDropdownBtnTwoImg } from "../icdasDropdownBtns/TypeOfDropdownBtnTwoImg"
+import { TypeOfDropdownBtnTwoImg } from "../typeOfDropdownBtns/TypeOfDropdownBtnTwoImg"
+import { TypeOfDropdownBtnFourImg } from "../typeOfDropdownBtns/TypeOfDropdownBtnFourImg"
 import twoFosFisuraOne from '../../assets/icdas/2/2-fosa-fisura-1.png'
 import twoFosFisuraTwo from '../../assets/icdas/2/2-fosa-fisura-2.png'
 import twoFosFisuraThree from '../../assets/icdas/2/2-fosa-fisura-3.png'
@@ -34,7 +35,7 @@ export const CodeTwo = () => {
               </button>
               {isDropdownOpen['cambioDetectableEnEsmalte'] && (
                 <div>
-                  <TypeOfDropdownBtnTwoImg name={'twoFosaFisura'} title={'Fosa y fisura'}  
+                  <TypeOfDropdownBtnFourImg name={'twoFosaFisura'} title={'Fosa y fisura'}  
                   imgOne={twoFosFisuraOne} altOne={'Fosa y fisura'} 
                   imgTwo={twoFosFisuraTwo} altTwo={'Fosa y fisura'} 
                   imgThree={twoFosFisuraThree} altThree={'Fosa y fisura'} />

@@ -1,5 +1,6 @@
 import { useDropdownContext } from "../../context/dropdownContext"
-import { TypeOfDropdownBtnTwoImg } from "../icdasDropdownBtns/TypeOfDropdownBtnTwoImg"
+import { TypeOfDropdownBtnTwoImg } from "../typeOfDropdownBtns/TypeOfDropdownBtnTwoImg"
+import { TypeOfDropdownBtnFourImg } from "../typeOfDropdownBtns/TypeOfDropdownBtnFourImg"
 import fourFosaFisuraOne from '../../assets/icdas/4/4-fosa-fisura-1.png'
 import fourFosaFisuraTwo from '../../assets/icdas/4/4-fosa-fisura-2.png'
 import fourSuperficieLisaOne from '../../assets/icdas/4/4-superficie-lisa-1.png'
@@ -38,7 +39,7 @@ export const CodeFour = () => {
                   <TypeOfDropdownBtnTwoImg name={'fourFosaFisura'} title={'Fosa y fisura'}  
                   imgOne={fourFosaFisuraOne} altOne={'Fosa y fisura'} 
                   imgTwo={fourFosaFisuraTwo} altTwo={'Fosa y fisura'} />
-                  <TypeOfDropdownBtnTwoImg name={'fourSuperficieLisa'} title={'Superficie lisa'} 
+                  <TypeOfDropdownBtnFourImg name={'fourSuperficieLisa'} title={'Superficie lisa'} 
                   imgOne={fourSuperficieLisaOne} altOne={'Superficie lisa'} imgTwo={fourSuperficieLisaTwo} altTwo={'Superficie lisa'} 
                   imgThree={fourSuperficieLisaThree} altThree={'Superficie lisa'} />
                   <TypeOfDropdownBtnTwoImg name={'fourSuperficieLisaLibre'} title={'Superficie lisa libre'}  
