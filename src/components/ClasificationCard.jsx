@@ -5,7 +5,7 @@ export const ClasificationCard = () => {
   
     return (
         <>
-            <div className="rounded-xl shadow-lg backdrop-blur-md bg-black/40 container mt-6 md:my-2 mx-auto w-7/12 md:w-9/2">
+            <div className="rounded-xl shadow-lg backdrop-blur-md bg-black/40 container mt-6 md:my-2 mx-auto w-8/12 md:w-9/2">
                 <div className="p-5 flex flex-col content-between gap-2">
                     <div className="rounded-xl overflow-hidden">
                         <img loading='lazy' src={cavities} alt="Caries dental" />
