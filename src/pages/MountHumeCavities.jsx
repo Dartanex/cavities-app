@@ -1,20 +1,26 @@
 import { Header } from "../components/Header"
-import maintenance from '../assets/maintenance-2422171_1280.jpg'
-import { Link } from "react-router-dom"
+import { EstadioZero } from "../components/mountHumeEstadioComponents/EstadioZero"
+import { EstadioOne } from "../components/mountHumeEstadioComponents/EstadioOne"
+import { EstadioTwo } from "../components/mountHumeEstadioComponents/EstadioTwo"
+import { EstadioThree } from "../components/mountHumeEstadioComponents/EstadioThree"
+import { EstadioFour } from "../components/mountHumeEstadioComponents/EstadioFour"
+import { Footer } from "../components/Footer"
 
 export const MountHumeCavities = () => {
   return (
     <>
-        
-        <main className="container mt-24 mx-auto max-w-screen-xl bg-black/50 backdrop-blur-sm w-11/12 md:w-3/4 rounded-md p-2">
-          <img src={maintenance} alt="En mantenimiento" />
-          <div className="flex md:justify-items-center md:justify-center md:items-center content-between flex-col my-4 p-4">
-            <p className="text-white text-xl p-2 md:p-4">Esta sección se encuentra en construcción, pero puedes disfrutar de las secciones ya finalizadas!</p>
-            <Link className="rounded-md p-2 w-fit bg-violet-500 font-semibold text-slate-100" to={'/home'}>
-              Volver a Inicio
-            </Link>
-          </div>
+        <Header />
+        <main className="container mt-16 mx-auto max-w-screen-xl bg-black/50 backdrop-blur-sm w-11/12 md:w-3/4 rounded-md p-2">
+          <h1 className="text-white text-xl md:text-2xl text-center font-bold">Caries Según MOUNT-HUME</h1>
+          <EstadioZero />
+          <EstadioOne />
+          <EstadioTwo />
+          <EstadioThree />
+          <EstadioFour />
         </main>
+        <div className="mb-[-3.5vh] md:mb-[-3vh]">
+          <Footer />
+        </div>
     </>
   )
 }
