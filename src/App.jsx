@@ -8,6 +8,7 @@ import { IcdasCavities } from './pages/IcdasCavities'
 import { BlackCavities } from './pages/BlackCavities'
 import { MountHumeCavities } from './pages/MountHumeCavities'
 import { DropdownProvider } from './context/dropdownContext'
+import { AuthorsPage } from './pages/AuthorsPage'
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
           <Route exact path='/blackcavities' element={<BlackCavities />} />
           <Route exact path='/mounthumecavities' element={<MountHumeCavities />} />
           <Route exact path="/quiz" element={<QuizPage />} />
+          <Route exact path='/authors' element={<AuthorsPage />} />
         </Routes>
       </DropdownProvider>
     </>

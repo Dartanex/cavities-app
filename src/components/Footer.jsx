@@ -11,7 +11,8 @@ export const Footer = () => {
             </div>
             <div className='mt-2'>
                 <p className='text-slate-200 text-center mb-2'>
-                    &#x2117; &#169; Dentart, 2024. Derechos reservados, powered by <Link className='underline cursor-pointer'>Authors</Link>
+                    &#x2117; &#169; Dentart, 2024. Derechos reservados, powered by 
+                    <a className='underline cursor-pointer' href='/authors' target='_blank'>Authors</a>
                 </p>
             </div>
         </footer>
