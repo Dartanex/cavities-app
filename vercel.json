@@ -2,11 +2,5 @@
     "rewrites":  [
       {"source": "/(.*)", "destination": "/"},
       {"source": "/authors", "destination": "/"}
-    ],
-    "routes": [
-        {
-            "src": "/(.*).(html|js|css|jsx)",
-            "dest": "/"
-        }
     ]
 }
