@@ -9,7 +9,7 @@ export const Header = () => {
     const [open, setOpen] = useState(false)
     return (
         <header className="bg-white/40 shadow-md w-full h-auto sticky z-20 top-0  md:h-24 lg:h-auto backdrop-blur-md">
-            <nav className="mx-auto flex lg:flex-row lg:items-center lg:justify-between content-center justify-between gap-5 lg:px-10 px-7">
+            <nav className="mx-auto flex lg:flex-row lg:items-center content-center justify-between lg:px-10 px-2">
                 <div className='cursor-pointer flex'>
                     <img className="size-20 mr-1 rounded-full" loading='lazy' src={logodentart} alt="teeth" />
                     <h3 className='lg:mt-6 mt-5 ms-6 lg:ms-4 text-3xl font-semibold'>DENTART</h3>
