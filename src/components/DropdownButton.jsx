@@ -13,7 +13,7 @@ export const DropdownButton = () => {
                         <button
                             type="button"
                             onClick={() => {toggleDropdown('clasificationCavities')}}
-                            className="inline-flex w-full rounded-md font-semibold text-2xl px-2 py-2 text-white"
+                            className="inline-flex w-full rounded-md font-semibold text-2xl md:text-3xl lg:text-2xl px-2 py-2 text-white"
                             id="menu-button"
                             aria-expanded={isDropdownOpen['clasificationCavities'] ? 'true':'false'}
                             aria-haspopup="true">
@@ -25,12 +25,12 @@ export const DropdownButton = () => {
                     </div>
 
                     {isDropdownOpen['clasificationCavities'] && (
-                        <div className=" md:static md:min-h-fit min-h-[60hv] left-0 top[10%] w-full md:w-auto flex items-center 
-                        px-5 transition-all duration-500 ease-in top-25" 
+                        <div className=" lg:static lg:min-h-fit min-h-[60hv] left-0 w-full lg:w-auto flex items-center 
+                        px-5 transition-all duration-500 ease-in" 
                         role="menu" aria-orientation="vertical" aria-labelledby="menu-button">
-                            <div className="md:w-6 md:h-6 md:ms-1 md:rounded-sm md:absolute  mt-20 rotate-45 bg-black/90 backdrop-blur-sm">
+                            <div className="lg:w-6 lg:h-6 lg:ms-1 lg:rounded-sm lg:absolute  mt-20 md:mt-14 rotate-45 bg-black/90 backdrop-blur-sm">
                             </div>
-                            <div className="py-2 flex flex-col gap-4 md:absolute md:z-20 md:rounded-md md:w-64 top-20 md:top-28 md:bg-black" 
+                            <div className="py-2 flex flex-col gap-4 lg:absolute lg:z-20 lg:rounded-md lg:w-64 md:mt-72 lg:bg-black" 
                             role="none">
                                 <DropdownOptionButton title="ICDAS" to={'/icdascavities'} />
                                 <DropdownOptionButton title="BLACK" to={'/blackcavities'} />
