@@ -10,7 +10,7 @@ export const MountHumeCavities = () => {
   return (
     <>
         <Header />
-        <main className="container mt-16 mx-auto max-w-screen-xl bg-black/50 backdrop-blur-sm w-11/12 md:w-3/4 rounded-md p-2">
+        <main className="container mt-16 mx-auto bg-black/50 backdrop-blur-sm w-11/12 md:w-3/4 rounded-md p-2">
           <h1 className="text-white text-xl md:text-2xl text-center font-bold">Caries Según MOUNT-HUME</h1>
           <EstadioZero />
           <EstadioOne />

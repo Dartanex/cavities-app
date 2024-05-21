@@ -18,21 +18,21 @@ export const CavitiesPage = () => {
     return (
         <>
             <Header />
-            <main className="container bg-black/50 backdrop-blur-sm w-11/12 md:w-3/4 md:p-16 mt-10 md:mt-20 md:mb-20 mx-auto rounded-md p-2">
-                <h1 className="font-bold text-white text-center md:text-2xl md:mb-16">Información de caries</h1>
-                <section className="container mt-5 md:mx-auto">
+            <main className="container bg-black/50 backdrop-blur-sm w-11/12 lg:w-3/4 lg:p-16 mt-10 mb-10 md:mt-20 md:mb-20 mx-auto rounded-md p-2">
+                <h1 className="font-bold text-white text-center lg:text-2xl lg:mb-16">Información de caries</h1>
+                <section className="container mt-5 lg:mx-auto">
                     <button className="inline-flex  rounded-md font-semibold px-2 py-2 text-left w-full gap-2" 
                     onClick={() => { toggleDropdown('dropOne') }}
                     aria-expanded={isDropdownOpen['dropOne'] ? 'true':'false'}
                     aria-haspopup="true">
-                        <h2 className="font-base text-white w-3/4 md:w-96 pt-1">Algunas enfermedades más comunes en niños:</h2>
-                        <svg className="h-10 w-10 md:w-8 md:h-8 text-white ms-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <h2 className="font-base text-white w-3/4 lg:w-96 pt-1">Algunas enfermedades más comunes en niños:</h2>
+                        <svg className="h-10 w-10 lg:w-8 lg:h-8 text-white ms-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                             <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                         </svg>
                     </button>
                     
                     {isDropdownOpen['dropOne'] && (
-                        <ul className="list-outside list-disc ms-4 p-2 md:ps-6 md:w-3/4">
+                        <ul className="list-outside list-disc ms-4 p-2 lg:ps-6 lg:w-3/4">
                         <li className="font-base text-white text-pretty mt-2">
                             <p>
                                 Caries dental. Está causada por las bacterias de la placa, que aparece por falta de higiene, 
@@ -54,14 +54,14 @@ export const CavitiesPage = () => {
                 onClick={() => { toggleDropdown('dropTwo') }}
                 aria-expanded={isDropdownOpen['dropTwo'] ? 'true':'false'}
                 aria-haspopup="true">
-                        <h2 className="font-base text-white w-3/4 md:w-96 pt-1">Causa de la caries dental:</h2>
-                        <svg className="h-10 w-10 md:w-8 md:h-8 text-white ms-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <h2 className="font-base text-white w-3/4 lg:w-96 pt-1">Causa de la caries dental:</h2>
+                        <svg className="h-10 w-10 lg:w-8 lg:h-8 text-white ms-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                             <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                         </svg>
                     </button>
 
                     {isDropdownOpen['dropTwo'] && (
-                        <div className="md:w-3/4">
+                        <div className="lg:w-3/4">
                             <p className="text-white p-2">
                                 La etiología es multifactorial se ha establecido que el Streptococcus mutans, inmerso en un biofilm 
                                 bacteriano, es su principal agente causal, efecto potenciado por características en la dieta de los 
@@ -72,13 +72,13 @@ export const CavitiesPage = () => {
                         </div>
                     )}
                 </section>
-                <section className="container mt-5 md:mb-8">
-                    <button className="inline-flex w-max-screen-lg rounded-md font-semibold px-2 py-2 text-left w-full gap-2" 
+                <section className="container mt-5 lg:mb-8">
+                    <button className="inline-flex  rounded-md font-semibold px-2 py-2 text-left w-full gap-2" 
                     onClick={() => { toggleDropdown('dropThird') }}
                     aria-expanded={isDropdownOpen['dropThird'] ? 'true':'false'}
                     aria-haspopup="true">
-                        <h2 className="font-base text-white w-3/4 md:w-96 pt-1">Tipos de Caries:</h2>
-                        <svg className="h-10 w-10 md:w-8 md:h-8 text-white ms-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <h2 className="font-base text-white w-3/4 lg:w-96 pt-1">Tipos de Caries:</h2>
+                        <svg className="h-10 w-10 lg:w-8 lg:h-8 text-white ms-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                             <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                         </svg>
                     </button>
@@ -110,7 +110,7 @@ export const CavitiesPage = () => {
                     )}
                 </section>
             </main>
-            <div className="mb-[-3.5vh] md:mb-[-3vh]">
+            <div className="mb-[-3.5vh] lg:mb-[-3vh]">
             <Footer />
             </div>
         </>

@@ -9,7 +9,7 @@ export const HomePage = () => {
     return (
         <>
             <Header />
-            <main className="container md:rounded-md mx-auto my-auto w-screen h-auto md:max-w-screen-lg md:grid md:grid-cols-2 md:gap-4 px-5 md:px-0 pb-10">
+            <main className="container lg:rounded-md mx-auto my-auto w-full h-auto md:h-full lg:grid lg:grid-cols-2 lg:gap-4 px-5 lg:px-0 pb-10">
             <Card  title={"Conoce sobre las caries"} 
             description={"La caries es el daño en la superficie o esmalte de un diente. Ocurre cuando bacterias en la boca fabrican ácido que ataca el esmalte."}
             to={'/cavities'} button={'Ver más'} />
