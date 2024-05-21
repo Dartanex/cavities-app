@@ -13,7 +13,7 @@ export const DropdownButton = () => {
                         <button
                             type="button"
                             onClick={() => {toggleDropdown('clasificationCavities')}}
-                            className="inline-flex w-full rounded-md font-semibold text-2xl md:text-3xl lg:text-2xl px-2 py-2 text-white"
+                            className="inline-flex w-full rounded-md font-semibold text-xl sm:text-2xl md:text-3xl lg:text-2xl px-2 py-2 text-white"
                             id="menu-button"
                             aria-expanded={isDropdownOpen['clasificationCavities'] ? 'true':'false'}
                             aria-haspopup="true">
