@@ -29,7 +29,7 @@ export const CavitiesDropdownBtn = (props) => {
 
         {isDropdownOpen[props.name] && (
             <div>
-                <img className="w-72 mx-auto rounded-md md:w-4/12 md: ms-5" 
+                <img className="w-64 sm:w-72 mx-auto rounded-md md:w-4/12 md:ms-5" 
                 src={props.img} alt={props.alt} />
             </div>
         )}
