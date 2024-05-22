@@ -14,7 +14,7 @@ export const ClassFour = () => {
               aria-expanded={isDropdownOpen['classFour'] ? 'true':'false'}
               aria-haspopup="true">
                 <span className=" me-2 px-4 py-1 font-bold border-4 border-pink-500 rounded-md shadow-inner shadow-indigo-500/50">
-                  4°
+                  IV
                 </span>
                 <span className=" ms-1 flex mt-1 md:w-fit text-xl">
                   Clase

@@ -1,8 +1,5 @@
 import { useRef, useState } from 'react'
 import { data } from '../../utils/quizData'
-import { Result } from 'postcss'
-
-
 
 export const QuizComponent = () => {
     

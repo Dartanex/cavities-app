@@ -21,7 +21,7 @@ import imgQuestionTwenty from '../assets/mount-hume/estadio-4-1.png'
 
 export const data = [
     {
-        "question": "¿Qué código es?",
+        "question": "¿Qué código es según ICDAS?",
         "image": imgQuestionOne,
         "option1": "Código 2",
         "option2": "Código 5",
@@ -29,7 +29,7 @@ export const data = [
         "ans": 1
     },
     {
-        "question": "¿Qué código es?",
+        "question": "¿Qué código es según ICDAS?",
         "image": imgQuestionTwo,
         "option1": "Código 4",
         "option2": "Código 1",
@@ -37,7 +37,7 @@ export const data = [
         "ans": 3
     },
     {
-        "question": "¿Qué código es?",
+        "question": "¿Qué código es según ICDAS?",
         "image": imgQuestionThree,
         "option1": "Código 0",
         "option2": "Código 4",
@@ -45,7 +45,7 @@ export const data = [
         "ans": 2
     },
     {
-        "question": "¿Qué código es?",
+        "question": "¿Qué código es según ICDAS?",
         "image": imgQuestionFour,
         "option1": "Código 2",
         "option2": "Código 4",
@@ -53,7 +53,7 @@ export const data = [
         "ans": 1
     },
     {
-        "question": "¿Qué código es?",
+        "question": "¿Qué código es según ICDAS?",
         "image": imgQuestionFive,
         "option1": "Código 2",
         "option2": "Código 5",
@@ -61,7 +61,7 @@ export const data = [
         "ans": 2
     },
     {
-        "question": "¿Qué código es?",
+        "question": "¿Qué código es según ICDAS?",
         "image": imgQuestionSix,
         "option1": "Código 2",
         "option2": "Código 3",
@@ -69,7 +69,7 @@ export const data = [
         "ans": 3
     },
     {
-        "question": "¿Qué código es?",
+        "question": "¿Qué código es según ICDAS?",
         "image": imgQuestionSeven,
         "option1": "Código 0",
         "option2": "Código 6",
@@ -77,7 +77,7 @@ export const data = [
         "ans": 3
     },
     {
-        "question": "¿Qué código es?",
+        "question": "¿Qué código es según ICDAS?",
         "image": imgQuestionEight,
         "option1": "Código 5",
         "option2": "Código 6",
@@ -85,7 +85,7 @@ export const data = [
         "ans": 1
     },
     {
-        "question": "¿Qué código es?",
+        "question": "¿Qué código es según ICDAS?",
         "image": imgQuestionNine,
         "option1": "Código 5",
         "option2": "Código 6",
@@ -93,7 +93,7 @@ export const data = [
         "ans": 3
     },
     {
-        "question": "¿Qué código es?",
+        "question": "¿Qué código es según ICDAS?",
         "image": imgQuestionTen,
         "option1": "Código 5",
         "option2": "Código 3",
@@ -101,47 +101,47 @@ export const data = [
         "ans": 3
     },
     {
-        "question": "¿Qué clase es?",
+        "question": "¿Qué clase es según BLACK?",
         "image": imgQuestionEleven,
-        "option1": "Clase 2",
-        "option2": "Clase 1",
-        "option3": "Clase 4",
+        "option1": "Clase II",
+        "option2": "Clase I",
+        "option3": "Clase IV",
         "ans": 2
     },
     {
-        "question": "¿Qué clase es?",
+        "question": "¿Qué clase es según BLACK?",
         "image": imgQuestionTwelve,
-        "option1": "Clase 3",
-        "option2": "Clase 5",
-        "option3": "Clase 2",
+        "option1": "Clase III",
+        "option2": "Clase V",
+        "option3": "Clase II",
         "ans": 3
     },
     {
-        "question": "¿Qué clase es?",
+        "question": "¿Qué clase es según BLACK?",
         "image": imgQuestionThirteen,
-        "option1": "Clase 3",
-        "option2": "Clase 5",
-        "option3": "Clase 2",
+        "option1": "Clase III",
+        "option2": "Clase V",
+        "option3": "Clase II",
         "ans": 1
     },
     {
-        "question": "¿Qué clase es?",
+        "question": "¿Qué clase es según BLACK?",
         "image": imgQuestionFourteen,
-        "option1": "Clase 5",
-        "option2": "Clase 1",
-        "option3": "Clase 4",
+        "option1": "Clase V",
+        "option2": "Clase I",
+        "option3": "Clase IV",
         "ans": 3
     },
     {
-        "question": "¿Qué clase es?",
+        "question": "¿Qué clase es según BLACK?",
         "image": imgQuestionFifteen,
-        "option1": "Clase 5",
-        "option2": "Clase 1",
-        "option3": "Clase 3",
-        "ans": 3
+        "option1": "Clase V",
+        "option2": "Clase I",
+        "option3": "Clase III",
+        "ans": 1
     },
     {
-        "question": "¿Qué estadio es?",
+        "question": "¿Qué estadio es según MOUNT-HUME?",
         "image": imgQuestionSixteen,
         "option1": "Estadio 4",
         "option2": "Estadio 0",
@@ -149,7 +149,7 @@ export const data = [
         "ans": 2
     },
     {
-        "question": "¿Qué estadio es?",
+        "question": "¿Qué estadio es según MOUNT-HUME?",
         "image": imgQuestionSeventeen,
         "option1": "Estadio 1",
         "option2": "Estadio 4",
@@ -157,7 +157,7 @@ export const data = [
         "ans": 1
     },
     {
-        "question": "¿Qué estadio es?",
+        "question": "¿Qué estadio es según MOUNT-HUME?",
         "image": imgQuestionEighteen,
         "option1": "Estadio 2",
         "option2": "Estadio 0",
@@ -165,7 +165,7 @@ export const data = [
         "ans": 1
     },
     {
-        "question": "¿Qué estadio es?",
+        "question": "¿Qué estadio es según MOUNT-HUME?",
         "image": imgQuestionNineteen,
         "option1": "Estadio 2",
         "option2": "Estadio 3",
@@ -173,7 +173,7 @@ export const data = [
         "ans": 2
     },
     {
-        "question": "¿Qué estadio es?",
+        "question": "¿Qué estadio es según MOUNT-HUME?",
         "image": imgQuestionTwenty,
         "option1": "Estadio 4",
         "option2": "Estadio 2",
