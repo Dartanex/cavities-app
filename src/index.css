@@ -10,9 +10,19 @@
     text-wrap: wrap;
 }
 
-body {
+html, body {
     background: #3494E6;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #0879dd, #EC6EAD);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #0879dd, #db4892); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+#root {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+    min-height: 100%;
+    overflow: auto;
 }

@@ -10,7 +10,7 @@ export const NavbarButton = (props) => {
     return (
         <>
             <Link className={btnActive} to={props.to}>
-                <p className='text-2xl md:text-3xl lg:text-2xl font-semibold pt-2 px-2'>
+                <p className='text-2xl lg:text-xl font-semibold pt-4 px-2'>
                 {props.title}
                 </p>
             </Link>
