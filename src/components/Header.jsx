@@ -19,8 +19,8 @@ export const Header = () => {
                 <IoMenu className='text-3xl cursor-pointer inline-block md:me-2 lg:me-4 xl:hidden'/>}
                 </div>
                 <div className={`absolute xl:static xl:min-h-fit left-0 w-full xl:h-24 lg:w-auto flex items-center xl:justify-between
-                px-5 transition-all duration-500 ease-in ${open ? 'mt-20 bg-black/90 backdrop-blur-sm xl:bg-transparent' : 'hidden xl:flex'} `}>
-                    <div className='flex flex-col xl:flex-row xl:justify-center xl:gap-4 gap-6 my-3 md:my-10 xl:mt-7  xl:mb-0'>
+                px-5 transition-all duration-500 ease-in ${open ? 'mt-20 pb-2 xl:mb-0 bg-black/90 backdrop-blur-sm xl:bg-transparent' : 'hidden xl:flex'} `}>
+                    <div className='flex flex-col xl:flex-row xl:justify-center text-xl xl:gap-4 gap-6 my-4 md:my-10 xl:mt-7  xl:mb-0'>
                         <NavbarButton title='Inicio' to={'/home'} />
                         <NavbarButton title='Caries' to={'/cavities'} />
                         <DropdownButton />                     

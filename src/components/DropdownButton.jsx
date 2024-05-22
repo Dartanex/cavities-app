@@ -30,7 +30,7 @@ export const DropdownButton = () => {
                         role="menu" aria-orientation="vertical" aria-labelledby="menu-button">
                             <div className="xl:w-6 xl:h-6 xl:ms-1 xl:rounded-sm lg:absolute  mt-5 xl:mt-12 rotate-45 bg-black/90 backdrop-blur-sm">
                             </div>
-                            <div className="py-2 flex flex-col gap-2 xl:absolute xl:z-20 xl:rounded-md xl:w-64 md:mt-2 xl:mt-64 xl:bg-black" 
+                            <div className="py-2 flex flex-col gap-5 xl:absolute xl:z-20 xl:rounded-md xl:w-64 md:mt-2 xl:mt-64 xl:bg-black" 
                             role="none">
                                 <DropdownOptionButton title="ICDAS" to={'/icdascavities'} />
                                 <DropdownOptionButton title="BLACK" to={'/blackcavities'} />
